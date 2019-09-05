@@ -11,9 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:weightSum="1">
+
         <LinearLayout
             android:layout_width="match_parent"
-
             android:layout_height="300dp"
             android:weightSum="2"
             android:orientation="vertical">
@@ -43,12 +43,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
+                android:background="@color/them"
                 android:layout_marginTop="50dp"
-
-
                 android:orientation="vertical"
-
                 android:padding="10dp"
                 android:weightSum="4">
 
@@ -58,14 +55,12 @@
                     android:layout_height="wrap_content"
                     android:hint="Username"
                     android:text="admin"
-
                     android:inputType="text"
                     android:textColor="#ffffff"
-
                     android:padding="12dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                  android:drawableTint="#ffffff"
+                    android:drawableTint="#ffffff"
                     android:textColorHint="#ECECEC"
                     android:drawableLeft="@drawable/usrusr"
                     android:drawablePadding="16dp" />
@@ -78,7 +73,7 @@
                     android:textColor="#ffffff"
                     android:inputType="textPassword"
                     android:drawableTint="#ffffff"
-android:textColorHint="#ECECEC"
+                    android:textColorHint="#ECECEC"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="20dp"
 
@@ -91,17 +86,11 @@ android:textColorHint="#ECECEC"
                     android:id="@+id/btn_sbs"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-
-                    android:background="#504D4D"
-
                     android:text="Login"
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:weightSum="3" />
-
-
-
-
+d
             </LinearLayout>
 
 

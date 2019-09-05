@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 
 
 
-public class credit extends Fragment {
+public class Credit extends Fragment {
 
 
     @Override
