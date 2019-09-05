@@ -12,7 +12,6 @@ public class AddPerson extends AppCompatActivity {
     private String currentDisplayedInput = "";
     private String inputToBeParsed = "";
     private TextView outputResult;
-    private Calculator mCalculator;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
