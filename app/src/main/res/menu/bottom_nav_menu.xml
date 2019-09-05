@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sumry"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Summary" />
+
+    <item
+        android:id="@+id/debit"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Debit" />
+
+       <item
+        android:id="@+id/credit"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Credit" />
+    <item
+        android:id="@+id/transaction"
+
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Transaction" />
+
+    <item
+        android:id="@+id/alert"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Alerts" />
+
+</menu>
